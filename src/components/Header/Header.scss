@@ -1,0 +1,10 @@
+.header {
+  color: #f0f;
+  padding: 1rem;
+  border: 2px solid #f0f;
+
+  // Le & permet de concaténer le nom de la classe parente avec le reste du sélecteur
+  &__title {
+    color: #0f0;
+  }
+}
